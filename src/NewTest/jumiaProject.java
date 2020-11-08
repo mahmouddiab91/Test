@@ -115,5 +115,7 @@ public class jumiaProject
         Boolean d1 = driver.findElement(By.xpath("//a[contains(text(),'Egyptian Rice – 5 Kg')]")).isDisplayed();
         System.out.println("Cart has selected item:" +d1);
         
+        driver.close();
+        
 	}	
 }
